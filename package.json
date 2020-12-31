@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "16.13.1",
     "react-native": "0.63.4",
+    "react-native-my-fancy-library": "git+https://github.com/Skpgithub123/testlibrary.git",
     "react-native-rn-vf-psdk": "git+https://github.com/Hari-apps/myLib.git"
   },
   "devDependencies": {

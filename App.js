@@ -27,6 +27,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import {initPayment,RnVfPsdk} from "react-native-rn-vf-psdk";
+import MyFancyLibrary from "react-native-my-fancy-library";
 
 //import CalendarModuleFoo from 'react-native-my-library';
 
@@ -43,7 +44,7 @@ const App = () => {
 
       
        
-      console.log(await RnVfPsdk.sampleMethod('testName', 123) )
+      await MyFancyLibrary.sampleMethod('testName', 123,(msg)=>console.log(msg))
      } catch (error) {
        
 
